@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Amusement Park</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to our Amusement Park</h1>
+      <p>Please fill out the information below to see our available attractions.
+      <form id="height">
+        <div class="form-group space">
+          <label for="heightFeet">I am</label>
+          <input id="heightFeet" class="form-control" type="text">
+        </div>
+        <div class="form-group space">
+          <label for="heightInches">feet tall and</label>
+          <input id="heightInches" class="form-control" type="text">
+        </div>
+        <p>inches.</p>
+        <button type="submit" class="btn">Don't do it</button>
+      </form>
+      <div class="under-60">
+        <p>you are short. you can only use these rides</p>
+      </div>
+
+      <div class="over-60">
+        <p>you are not short. you can go on all the rides.</p>
+      </div>
+
+      <div class="over-78">
+        <p>you are tall. you cannot use the kiddie rides</p>
+      </div>
+
+
+    </div>
+  </body>
+</html>
