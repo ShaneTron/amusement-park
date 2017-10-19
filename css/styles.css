@@ -2,6 +2,7 @@
   width: 400px;
 }
 
-.under-60, .over-60, .over-78 {
-  display: none;
+.highlight {
+  background-color: yellow
 }
+ 

@@ -6,17 +6,17 @@ $(document).ready(function() {
     var height = (heightFeet * 12) + heightInches;
 
     if (height < 60) {
-      $(".under-60").show();
+      $(".under-60").addClass("highlight");
     }
 
     else if (height >= 60 && height <= 78) {
-      $(".over-60").show();
-      $(".under-60").show();
+      $(".over-60").addClass("highlight");
+      $(".under-60").addClass("highlight");
     }
 
     else if (height > 78) {
-      $(".over-60").show();
-      $(".over-78").show();
+      $(".over-60").addClass("highlight");
+      $(".over-78").addClass("highlight");
     }
   })
 })
